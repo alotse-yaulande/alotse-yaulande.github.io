@@ -8,7 +8,7 @@ nav:
   # - About: about.md
   - Blog:
      - Overview: blog/index.md
-    #  - Integration: blog/integration.md
+     - Integration: blog/integration.md
      - Machine Learning:
         - blog/nlp/2024/12/06/lntroduction-to-Machine-Learning.md
         - blog/nlp/2024/12/06/Understanding-Convolution-Neural-Network.md
