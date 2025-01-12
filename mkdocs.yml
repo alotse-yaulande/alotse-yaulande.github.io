@@ -1,1 +1,132 @@
-site_name: My Docs
+site_name: Yaulande Douanla
+nav:
+  - Home: index.md
+  - About: about.md
+  - Blog:
+     - blog/index.md
+     - blog/integration.md
+     - nlp:
+        - blog/nlp/2024/12/06/lntroduction-to-Machine-Learning.md
+        - blog/nlp/2024/12/06/Understanding-Convolution-Neural-Network.md
+    
+
+# theme: readthedocs
+theme:
+  name: material
+  language: en
+  font: 
+    text: Roboto
+    code: Roboto Mono
+  features:
+    # - search.suggest
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+  palette:
+     # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  iicon:
+    repo: fontawesome/brands/git-alt
+plugins:
+  - search
+  - privacy
+  - blog:
+      blog_dir: blog
+      blog_toc: false
+      post_dir: "{blog}/posts"
+      post_url_format: "{date}/{slug}"
+      post_url_max_categories: 5
+      post_excerpt: optional
+      post_excerpt_max_authors: 2
+      post_excerpt_max_categories: 2
+      post_excerpt_separator: <!-- more -->
+      archive_url_format: "archive/{date}"
+      archive_toc: true
+      post_date_format: medium
+      post_url_date_format: yyyy/MM/dd
+      categories: true
+      categories_name: Categories
+      categories_url_format: "category/{slug}"
+      categories_slugify_separator: _
+      categories_allowed:
+        - Search
+        - Performance
+      categories_toc: true
+      authors: true
+      # authors_profiles: true
+      # authors_profiles_name: Authors
+      pagination: true
+      pagination_per_page: 5
+      pagination_url_format: "page/{page}"
+      pagination_format: "~2~"
+      pagination_if_single_page: true
+      draft: true
+      draft_on_serve: true 
+  - tags
+  # - meta
+  - social:
+        cards_layout_options:
+            background_color: "#ff1493"
+            color: "#ffffff"
+            font_family: Ubuntu
+            font_variant: Condensed
+            title: My custom title
+            description: My custom description
+
+
+repo_url: https://github.com/squidfunk/mkdocs-material
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+
+
+
+extra:
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: French
+      link: /fr/
+      lang: fr
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better. You can change your consent at any time.
+
+copyright: >
+  Copyright &copy; 2024 - 2025  Yaulande Douanla  –
+  <a href="#__consent">Change cookie settings</a>
