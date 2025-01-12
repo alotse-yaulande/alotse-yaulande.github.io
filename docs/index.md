@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# Welcome! This is my personal blog where I share my thoughts and experiences on various topics.
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
