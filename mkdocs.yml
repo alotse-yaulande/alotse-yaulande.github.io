@@ -1,14 +1,18 @@
 site_name: Yaulande Douanla
+site_description: Data Scientist & Climate Physicist
+site_author: Dr. Yaulande Douanla
+
+
 nav:
   - Home: index.md
-  - About: about.md
+  # - About: about.md
   - Blog:
-     - blog/index.md
-     - blog/integration.md
-     - nlp:
+     - Overview: blog/index.md
+    #  - Integration: blog/integration.md
+     - Machine Learning:
         - blog/nlp/2024/12/06/lntroduction-to-Machine-Learning.md
         - blog/nlp/2024/12/06/Understanding-Convolution-Neural-Network.md
-    
+
 
 # theme: readthedocs
 theme:
@@ -17,14 +21,6 @@ theme:
   font: 
     text: Roboto
     code: Roboto Mono
-  features:
-    # - search.suggest
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
   palette:
      # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -49,8 +45,19 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
-  iicon:
-    repo: fontawesome/brands/git-alt
+  # iicon:
+  #   repo: fontawesome/brands/git-alt
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - search.suggest
+    - search.suggest
+  static_templates:
+    - assets/images
 plugins:
   - search
   - privacy
@@ -89,6 +96,7 @@ plugins:
   - tags
   # - meta
   - social:
+        cards_layout: default
         cards_layout_options:
             background_color: "#ff1493"
             color: "#ffffff"
@@ -96,18 +104,6 @@ plugins:
             font_variant: Condensed
             title: My custom title
             description: My custom description
-
-
-repo_url: https://github.com/squidfunk/mkdocs-material
-markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-
 
 
 
@@ -119,6 +115,11 @@ extra:
     - name: French
       link: /fr/
       lang: fr
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/alotse-yaulande/alotse-yaulande.github.io/tree/gh-pages
+    - icon: fontawesome/brands/linkedin
+      link: your-linkedin-url
   consent:
     title: Cookie consent
     description: >- 
@@ -130,3 +131,16 @@ extra:
 copyright: >
   Copyright &copy; 2024 - 2025  Yaulande Douanla  –
   <a href="#__consent">Change cookie settings</a>
+
+
+repo_url: https://github.com/alotse-yaulande/
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+

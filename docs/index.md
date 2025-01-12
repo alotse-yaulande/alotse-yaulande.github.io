@@ -16,3 +16,10 @@
     <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=300" alt="Wind Turbine" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
     <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=300" alt="Scientist with Equipment" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
 </div>
+
+<div style="text-align: center; margin: 4em 0; padding: 2em; background: #f8f9fa; border-radius: 10px;">
+    <h3 style="color: #2c3e50;">Let's Connect</h3>
+    <p style="color: #34495e; max-width: 600px; margin: 1em auto;">
+        I'm always eager to collaborate on innovative projects and share insights with fellow researchers and practitioners. Feel free to reach out if you're interested in my work or would like to discuss potential collaborations.
+    </p>
+</div>

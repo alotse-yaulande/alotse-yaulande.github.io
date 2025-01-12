@@ -1,1 +1,1 @@
-pip install "mkdocs-material[imaging]"
+"mkdocs-material[imaging]"
