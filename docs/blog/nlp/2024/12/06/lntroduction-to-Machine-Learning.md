@@ -7,11 +7,12 @@ tags: ["AI", "Data Science", "Python", "Scikit-learn"]
 authors: 
     - Yaulande Douanla
 pin: true
-readtime: 15
+readtime: 12
 categories:
   - Search
   - Performance
 ---
+
 Machine learning is revolutionizing the way we approach problem-solving across various domains. In this comprehensive guide, we'll explore the fundamental concepts and get started with practical examples.
 
 ## What is Machine Learning?
